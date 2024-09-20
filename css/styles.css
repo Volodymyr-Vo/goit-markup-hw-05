@@ -8,7 +8,7 @@ button {
   cursor: pointer;
 }
 
-.visually-hidden {
+.visually-hiden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
