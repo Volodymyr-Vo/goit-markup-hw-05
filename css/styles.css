@@ -8,6 +8,19 @@ button {
   cursor: pointer;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /*reset*/
 
 ul,
@@ -835,6 +848,8 @@ input:checked + label > span {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
+
+/* .checkbox:checked + .checkbox-label > .checkbox-icon { */
 
 .modal-button {
   display: block;
