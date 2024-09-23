@@ -638,22 +638,29 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   margin-right: 24px;
+  padding-left: 16px;
 }
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 .footer-button-icon {
   fill: #fff;
   padding-top: 8px;
+  margin-left: 16px;
 }
 .footer-button {
-  display: inline-flex;
+  display: flex;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-
+  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
