@@ -55,7 +55,7 @@ img {
   display: block;
 }
 
-/*header*/
+/*====================header======================*/
 
 .address {
   margin-left: auto;
@@ -164,6 +164,8 @@ img {
   color: #404bbf;
 }
 
+/*====================header======================*/
+
 /*====================page-main======================*/
 
 .sectio-order {
@@ -230,6 +232,8 @@ img {
 .page-main-section-button:focus {
   background-color: #404bbf;
 }
+
+/*====================page-main======================*/
 
 /*====================section-features======================*/
 
@@ -300,6 +304,8 @@ img {
   text-align: center;
   margin-bottom: 8px;
 }
+
+/*====================section-features======================*/
 
 /*====================section-second======================*/
 
@@ -402,6 +408,8 @@ img {
 .our-team-icon {
   fill: #f4f4fd;
 }
+
+/*====================section-second======================*/
 
 /*=================potfolio======================*/
 
@@ -849,8 +857,6 @@ input:checked + label > span {
   color: #4d5ae5;
 }
 
-/* .checkbox:checked + .checkbox-label > .checkbox-icon { */
-
 .modal-button {
   display: block;
   border-radius: 4px;
@@ -871,3 +877,5 @@ input:checked + label > span {
   margin-bottom: 24px;
   gap: 10px;
 }
+
+/* ====================backdrop================================== */
