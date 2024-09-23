@@ -681,7 +681,7 @@ img {
 
 /* =================footer======================================= */
 
-/* ====================backdrop================================== */
+/* ====================modal================================== */
 .backdrop {
   position: fixed;
   top: 0;
@@ -704,6 +704,7 @@ img {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  padding: 72px 24px 24px 24px;
 }
 
 .modal {
@@ -757,6 +758,7 @@ img {
 .close-black-button:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .text-overlay {
@@ -767,6 +769,7 @@ img {
   text-align: center;
   color: #2e2f42;
   padding-top: 72px;
+  margin-bottom: 16px;
 }
 
 .modal-form {
@@ -778,11 +781,16 @@ img {
   padding-right: 24px;
   margin-top: 8px;
 }
+.modal-form-field {
+  margin-bottom: 8px;
+}
 
 .modal-label {
+  display: block;
+  margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -804,6 +812,8 @@ img {
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #4d5ae5;
 }
 .modal-input:focus + .modal-field-icon {
   fill: #4d5ae5;
@@ -817,6 +827,10 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2e2f42;
 }
+.textarea-container {
+  margin-bottom: 16px;
+}
+
 .modal-comment {
   font-weight: 400;
   font-size: 12px;
@@ -827,11 +841,17 @@ img {
   border-radius: 4px;
   width: 360px;
   height: 120px;
-  padding: 12px 16px;
+  padding: 8px 16px;
+  background-color: transparent;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #4d5ae5;
 }
 
 .modal-checkbox {
   margin-top: 16px;
+  margin-bottom: 24px;
 }
 .checkbox-label {
   font-size: 12px;
@@ -850,7 +870,8 @@ img {
   align-items: center;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 input:checked + label > span {
   background-color: #404bbf;
@@ -883,6 +904,9 @@ input:checked + label > span {
   margin-top: 24px;
   margin-bottom: 24px;
   gap: 10px;
+  min-width: 169px;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ====================backdrop================================== */
+/* ====================modal================================== */
