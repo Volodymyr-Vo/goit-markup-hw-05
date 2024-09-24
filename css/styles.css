@@ -828,6 +828,10 @@ img {
   border-color: #4d5ae5;
 }
 
+.modal-input:focus-within + .modal-field-icon {
+  fill: #4d5ae5;
+}
+
 .modal-field-icon {
   position: absolute;
   left: 16px;
